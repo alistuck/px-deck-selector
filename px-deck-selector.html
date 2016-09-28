@@ -30,7 +30,7 @@ Custom property | Description | Default
 <dom-module id="px-deck-selector">
   <template>
     <style include="px-deck-selector-styles"></style>
-    
+
     <div class="dropdown-text" on-click="_toggleDropdown" hidden$="{{!_isDecks}}">
       <span class="epsilon">{{selectedDeck.name}}</span>
       <iron-icon icon="fa:fa-caret-down"></iron-icon>
@@ -120,13 +120,9 @@ Custom property | Description | Default
     _setDecks: function() {
       this.set('_isDecks', this.decks && this.decks.length > 0);
 
-      var selectedDeck = null;
-
-      if (this._isDecks) {
-        selectedDeck = this.decks[0];
+      if (this._isDecks && !this.selectedDeck) {
+        this.set('selectedDeck', this.decks[0]);
       }
-
-      this.set('selectedDeck', selectedDeck);
     },
 
     _toggleDropdown: function(e) {
