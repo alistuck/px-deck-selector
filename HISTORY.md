@@ -1,3 +1,7 @@
+v1.6.3
+==================
+* changing ghp.sh to account for Alpha releases
+
 v1.6.2
 ==================
 * Fixed dropdown padding issue
