@@ -1,3 +1,7 @@
+v1.6.6
+==================
+* added css variable for line separator and adding more space above dropdown menu 
+
 v1.6.5
 ==================
 * Updated to px-demo 

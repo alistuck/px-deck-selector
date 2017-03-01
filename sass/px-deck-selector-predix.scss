@@ -35,6 +35,6 @@ common/abstract rules go in px-deck-selector-sketch.scss, not in this file.
     }
   }
   li.deck-editor{
-    border-top: 1px solid #CCCCCC;
+    border-top: 1px solid var(--px-deck-selector-li-border, $gray4);
   }
 }
