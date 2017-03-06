@@ -1,10 +1,14 @@
+v1.6.7
+==================
+* fixed icon placement per design feedback 
+
 v1.6.6
 ==================
-* added css variable for line separator and adding more space above dropdown menu 
+* added css variable for line separator and adding more space above dropdown menu
 
 v1.6.5
 ==================
-* Updated to px-demo 
+* Updated to px-demo
 
 v1.6.4
 ==================

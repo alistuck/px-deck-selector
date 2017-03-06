@@ -41,6 +41,10 @@ Predix branding rules go in px-deck-selector-predix.scss, not in this file.
   --iron-icon-width: $inuit-base-font-size;
 }
 
+iron-icon {
+  margin-bottom: 5px;
+}
+
 .dropdown-text {
   cursor: pointer;
 }
