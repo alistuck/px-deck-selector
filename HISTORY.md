@@ -1,6 +1,10 @@
+v1.6.8
+==================
+* merge PR #7, improve test coverage
+
 v1.6.7
 ==================
-* fixed icon placement per design feedback 
+* fixed icon placement per design feedback
 
 v1.6.6
 ==================
