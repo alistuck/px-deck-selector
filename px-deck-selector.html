@@ -76,8 +76,7 @@ Custom property | Description | Default
       },
 
       /**
-       * Used for communicating out the currently selected deck.  The first deck
-       * in the list of decks will always be selected initially.
+       * Used for getting or setting the currently selected deck.  If no deck is specified, the first one will be selected.
        */
       selectedDeck: {
         type: Object,
@@ -120,7 +119,7 @@ Custom property | Description | Default
     _setDecks: function() {
       this.set('_isDecks', this.decks && this.decks.length > 0);
 
-      if (this._isDecks && !this.selectedDeck) {
+      if (this._isDecks && (this.selectedDeck == null || this.selectedDeck.constructor === Object)) {
         this.set('selectedDeck', this.decks[0]);
       }
     },
