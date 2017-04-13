@@ -1,3 +1,7 @@
+v2.0.0-prerelease
+==================
+* updated dependencies for design refresh
+
 v1.6.8
 ==================
 * merge PR #7, improve test coverage

@@ -1,6 +1,6 @@
 {
   "name": "px-deck-selector",
-  "version": "1.6.8",
+  "version": "2.0.0",
   "main": [
     "px-deck-selector.html"
   ],
@@ -25,14 +25,14 @@
     "px-deck-selector.png"
   ],
   "dependencies": {
-    "polymer": "^v1.6.1",
-    "px-theme": "^2.0.1",
-    "px-polymer-font-awesome": "^1.1.0",
-    "px-spacing-design": "^0.4.0"
+    "polymer": "^1.6.1",
+    "px-theme": "^3.0.0",
+    "px-polymer-font-awesome": "^2.0.0",
+    "px-spacing-design": "^1.0.0"
   },
   "devDependencies": {
-    "px-starter-kit-design": "^0.7.0",
-    "px-demo": "^1.2.8",
-    "px-headings-design": "^0.3.3"
+    "px-starter-kit-design": "^1.0.0",
+    "px-demo": "^2.0.0",
+    "px-headings-design": "^1.0.0"
   }
 }
