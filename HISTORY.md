@@ -1,3 +1,7 @@
+v1.6.9
+==================
+* fixed issue #6, closes #8
+
 v1.6.8
 ==================
 * merge PR #7, improve test coverage

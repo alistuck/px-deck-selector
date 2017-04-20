@@ -111,7 +111,10 @@ Custom property | Description | Default
        *
        **/
       configOptions: {
-        value: null,
+        type: Object,
+        value: function() {
+          return {};
+        },
         notify: true
       }
     },
