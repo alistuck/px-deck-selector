@@ -1,6 +1,14 @@
+v2.0.0-prerelease-1
+==================
+* pull in fix from v1.6.9
+
 v2.0.0-prerelease
 ==================
 * updated dependencies for design refresh
+
+v1.6.9
+==================
+* fixed issue #6, closes #8
 
 v1.6.8
 ==================
