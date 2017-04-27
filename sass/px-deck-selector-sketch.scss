@@ -57,6 +57,8 @@ iron-icon {
   border-radius: 3px;
   margin-top: $inuit-base-spacing-unit--tiny;
   z-index: 99;
+  height: 400px;
+  overflow:auto;
 }
 
 // Trumps
