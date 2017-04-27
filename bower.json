@@ -32,8 +32,17 @@
     "px-spacing-design": "^1.0.0"
   },
   "devDependencies": {
-    "px-starter-kit-design": "^1.0.0",
+    "px-starter-kit-design": "#0.7.4",
     "px-demo": "^2.0.0",
-    "px-headings-design": "^1.0.0"
+    "px-headings-design": "#0.3.5"
+  },
+  "resolutions": {
+    "px-spacing-design": "^0.4.0",
+    "px-headings-design": "0.3.5",
+    "px-defaults-design": "^1.0.2",
+    "px-typography-design": "^1.2.0",
+    "px-colors-design": "^0.3.0",
+    "px-mixins-design": "^0.3.0",
+    "px-functions-design": "^1.0.0"
   }
 }
